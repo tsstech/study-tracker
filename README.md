@@ -4,6 +4,8 @@ A laptop-friendly study logger: one timer per subject, start and stop it as you 
 how long you studied each subject each day. Data lives in your browser's localStorage — no
 account, no server, works offline.
 
+Open study timer at: https://tsstech.github.io/study-tracker/
+
 ## Run it
 
 ```bash
@@ -12,14 +14,6 @@ npm run dev
 ```
 
 Then open the URL Vite prints (usually http://localhost:5173).
-
-## Put it online (GitHub Pages)
-
-1. Push this to a GitHub repo.
-2. `npm run deploy` — builds and pushes `dist/` to a `gh-pages` branch.
-3. In the repo settings, set Pages to serve from the `gh-pages` branch.
-
-`base: './'` in `vite.config.js` is what makes it work from a `/repo-name/` sub-path.
 
 ## What it does
 
